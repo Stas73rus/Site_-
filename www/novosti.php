@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>St_animation</title>
+		<link href="css/main.css" rel="stylesheet" type="text/css"/>
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+	</head>
+	<body bgcolor="#F5F5F5">
+		<div id="site">
+			<div id="info">
+				<header>
+					<!логотип>
+					<div id="logo">
+						<a href="http://site_sg.ru" title="На главную">
+							<img src="images/logo1.png"/>
+							<span>St_animation</span>
+						</a>
+					</div>
+					<!Ульяновск>
+					<div id="ulaynovsk">
+						<a title="город Ульяновск">Ульяновск</a>
+					</div>
+					<!Кнопки войти и зарегистрироваться>
+					<div id="reg_log">
+						<a href="" title="Войти в кабинет">
+							<div id="btn">
+								Войти
+							</div>
+						</a>
+						<a href="" title="Зарегистрироваться на сайте">
+							<div id="btn">
+								Регистрация
+							</div>
+						</a>
+					</div>
+				</header>
+				<nav>
+					<div id="hideMenu">
+						<a href="http://site_sg.ru" title='Главная'>Главная</a>
+						<a href="novosti.php" title='Новости'>Новости</a>
+						<a href="biography.php" title='Биография'>Биография</a>
+						<a href="interesbl.php" title='Интересы'>Интересы</a>
+						<a href="portfolio.php" title='Портфолио'>Портфолио</a>
+					</div>
+				</nav>
+			 <!--------------------------Новости----------------
+			--------------------------------------------------->
+			<div id="main">
+					<h2 class="heading" title='Новости'>Новости</h2>
+					<br/><br/>
+					<div id="nov">
+						<div class="text1">
+							<ul>
+								<li><span>25 июня получение аттестата об окончании лицея №45</span></li>
+								<li><span>1 сентября начала учебы в УЛГТУ на факультете ФИСТ</span></li>
+								<li><span>17 января окончание экзаменационной сессии</span></li>
+								<li><span>19 начала второго семестра</span></li>
+							</ul>
+						</div>
+					</div>
+			</div>
+			<!--------------------------Конец раздела Новости----------------
+			--------------------------------------------------->
+			</div>	
+			<footer>
+				<div id="myname" title='Гаврилов Станислав Александрович'>
+					<span>Гаврилов Станислав Александрович</span>
+				</div>
+				<div id="clear"></div>
+				<div id="prava">
+					<a href="prava.php" title='Все права защищены'>Все права защищены &#169; <?=date ('Y')?></a>
+				</div>
+				<div id="ccbllki">
+					<a href="https://ok.ru/stanislav73rus" 
+						class="cc1" title="Я в ОК"><img src="images/OK.png"/></a>
+					<a href="https://vk.com/club57528420"
+						class="cc2" title="Группа Вк"><img src="images/VK.png"/></a>
+					<a href="https://www.facebook.com/profile.php?id=100006467527935&ref=bookmarks" 
+						class="cc3" title="Я в FaceBook"><img src="images/FaceBook.png"/></a>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
